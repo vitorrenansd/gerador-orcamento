@@ -10,4 +10,6 @@ public class ItemOrcamento {
     private Integer quantidade;
     private BigDecimal valorUnit;
     private BigDecimal valorTotal;
+
+    // Gerar os get/set
 }
