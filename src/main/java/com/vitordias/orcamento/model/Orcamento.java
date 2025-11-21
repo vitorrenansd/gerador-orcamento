@@ -1,6 +1,5 @@
 package com.vitordias.orcamento.model;
 
-import com.vitordias.orcamento.model.ItemOrcamento;
 import com.vitordias.orcamento.model.enums.StatusOrcamento;
 
 import java.util.List;
