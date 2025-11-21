@@ -9,7 +9,7 @@ CREATE TABLE orcamento (
     valor_total NUMERIC(10,2),
     status VARCHAR(20) NOT NULL DEFAULT 'ABERTO',
 
-    dt_entrada TIMESTAMP NOT NULL,
+    dt_entrada TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     dt_saida TIMESTAMP
 );
 
