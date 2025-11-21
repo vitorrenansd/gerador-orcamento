@@ -4,7 +4,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.1.7"
 }
 
-group = "com.vitorrenansd"
+group = "com.vitordias"
 version = "0.0.1-SNAPSHOT"
 description = "Sistema gerador de orçamento genérico, backend Java"
 
