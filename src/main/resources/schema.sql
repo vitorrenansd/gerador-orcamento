@@ -13,7 +13,7 @@ CREATE TABLE orcamento (
     dt_saida TIMESTAMP
 );
 
-CREATE TABLE itens_orcamento (
+CREATE TABLE item_orcamento (
     id IDENTITY PRIMARY KEY,
     orcamento_id BIGINT NOT NULL,
 
