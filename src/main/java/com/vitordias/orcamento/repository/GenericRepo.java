@@ -8,7 +8,7 @@ public interface GenericRepo<T, ID> {
 
     List<T> buscarTodos();
 
-    long salvar(T entidade);
+    long incluir(T entidade);
 
     int atualizar(T entidade);
 }
